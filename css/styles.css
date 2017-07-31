@@ -1,0 +1,359 @@
+/**
+ * styles.css
+ *
+ * Final Project For CS50xMiami
+ * AUTHOR: EVGENY NAGIMOV
+ *
+ * Project name: YDIN
+ * 2017
+ */
+
+ /****************************/
+ /*         HOME PAGE        */
+ /****************************/
+
+.black-bg{
+	background-color: #000;
+}
+#homemenu{
+	text-align: center;
+	max-width: 100%;
+	height: auto;
+	padding: 30px;
+}
+#homemenu a{
+    background-color: #FFF;
+    display: inline-block;
+    color: #000;
+    text-align: center;
+    padding: 5px 9px;
+    text-decoration: none;
+    margin: 2px;
+	width: 100px;
+}
+#homemenu a:hover{
+    background-color: #555;
+}
+
+#features{
+	color: #fff;
+}
+.col-md-6 h4{
+	color: #449cda;
+	font-size: 16px;
+}
+
+div ul span{
+	color: #f77a7a;
+}
+
+ /****************************/
+ /*         HOME PAGE        */
+ /****************************/
+
+#bottom{
+	margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.inline{
+    display: inline-block;
+}
+.block{
+    display: block;
+}
+.mar20r{
+    margin-right: 20px;
+}
+
+/* MESSAGE ON ADD PAGE*/
+.date-message{
+    color: #f904cb; /*purple*/
+}
+
+/******************************/
+/*           TABLES           */
+/******************************/
+
+/* Color of Stats Tables digits*/
+.digits-color{
+	color: #484343;
+}
+.stat-space{
+	padding-top: 15px;
+}
+
+/* stats cells text */
+.big-text{
+	font-size: 20px;
+	color: black;
+	padding: 10px;
+}
+
+#table-lectures
+{
+    color: #555;
+}
+
+/* Cells highlight depending on the value */
+/* attended */
+.green{
+    background-color: #138079;
+    color: #FFF;
+}
+
+/* didn't attend */
+.red{
+    color: #000000;
+    font-weight: bold;
+    /*background-color: #FFF;*/
+}
+
+/* table-track header style */
+.track{
+	background-color: #adabab;
+	font-size: 15px;
+	color: #FFF;
+}
+
+/* Table name */
+h3{
+    margin-top: 20px;
+   /* margin-bottom: 30px;*/
+}
+
+/* White right-left borders of the cells */
+.cell-white{
+	border-right: 1px solid #FFF;
+}
+
+.cell-av{
+	background-color: red;
+	color: #fff;
+	font-weight: 600;
+}
+
+/* Vertical alignment for cells */
+.table>tbody>tr>td{
+    vertical-align: middle;
+    padding: 4px;
+}
+
+/* table header-name */
+.table-name{
+	margin-top: 30px;
+	padding-bottom: 10px;
+	text-align: center;
+	color: #000000;
+}
+
+/* Table Font Size */
+#middle table{
+	font-size: 14px;
+}
+
+/* Vertical Table Header */
+
+th span{
+  transform-origin: 0 50%;
+  transform: rotate(-90deg);
+  white-space: nowrap;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  font-size: 12px;
+}
+
+table th {
+  position: relative;
+}
+/* END Vertical Table Header */
+
+/* Table Export */
+.list-group{
+    margin: 5px;
+}
+.panel{
+    background-color: #e8bfbf;
+    font-size: 13px;
+    border: 1px solid #d9534f;
+    border-radius: 0px;
+}
+.list-group-item:first-child{
+    border-radius: 0px;
+}
+#open-export{
+    margin-bottom: 15px;
+}
+.btn-danger{
+    font-size: 11px;
+    padding: 3px 5px 3px 5px;
+}
+#cancel{
+    border-color: #d9534f;
+    width: 23px;
+    height: 23px;
+}
+
+.table-hover > tbody > tr:hover {
+  background-color: #bdefe1;
+}
+
+/* END Table Export*/
+
+/******************************/
+/*        END  TABLES         */
+/******************************/
+
+/******************************/
+/*           FORMS            */
+/******************************/
+
+form fieldset label
+{
+    width: 100%;
+}
+.red-border{
+	margin-top: 30px;
+	border: 1px solid #f00;
+}
+
+.blue-border{
+	margin-top: 30px;
+	border: 1px solid #337ab7;
+}
+
+/* Form general style */
+.form-control{
+    /* center form controls */
+    display: inline-block;
+    width: 100%;
+    border-radius: 0px!important;
+}
+
+/* ALign Center Content */
+#form-conteiner{
+    text-align: center;
+}
+
+/* Padding for forms */
+fieldset{
+    padding: 10px;
+}
+
+/* Select Border radius O */
+select {
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+}
+label{
+	font-weight: 600;
+	font-size: 13px;
+}
+.label{
+	display:inline-block;
+}
+.input{
+	display:block;
+	font-weight: 400;
+	color: blue;
+}
+/* Required field red star*/
+.redstar{
+	color: red;
+}
+
+/******************************/
+/*         END  FORMS         */
+/******************************/
+
+/******************************/
+/*           BUTTONS          */
+/******************************/
+
+div .btn{
+    border-radius: 0px;
+    BORDER: 0px;
+}
+
+.btn-danger1{
+    color: #fff;
+    background-color: #da2525;
+    border: 0px;
+}
+/******************************/
+/*       END BUTTONS          */
+/******************************/
+
+/******************************/
+/*           MENUS            */
+/******************************/
+
+/* Top Menu Style */
+#scrollmenu{
+    overflow: auto;
+    text-align: center;
+    display: block;
+}
+#scrollmenu a{
+    background-color: #03b9ad;
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 5px 9px;
+    text-decoration: none;
+    margin: 2px;
+}
+#scrollmenu a:hover{
+    background-color: #0a756e;
+}
+/* END of Top Menu Style */
+
+/******************************/
+/*        END  MENUS          */
+/******************************/
+
+/*******************************/
+/*           QR CODE           */
+/*******************************/
+
+/* Space at the top of the page */
+.qrcode-margin{
+	margin-top: 40px;
+}
+
+/* Select Hide-Show */
+.hidden{
+	display: none;
+}
+
+/* Space between QR Code and button */
+#reset{
+	margin-top: 20px;
+}
+
+/* General center alignment */
+#qrdiv{
+	text-align:center;
+}
+
+/* Table Center Alignment */
+#qrcode {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* Button & Select Style */
+#qr-btn, #selector{
+	background-color: #03b9ad;
+	color: #FFF;
+	width: 150px;
+	border-color: #FFF;
+}
+
+/*******************************/
+/*       END OF QR CODE        */
+/*******************************/
