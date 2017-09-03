@@ -1,4 +1,8 @@
-# Config.php 
+# YDIN (Yellow Duck In)
+Attendance Management System for CS50xMiami, which includes an iOS App as a QR code scanner and web app for administrators to manage the data and see attendance statistics.
+
+
+## Config.php 
 
     // MyPhpAdmin Host Name
     $host = 'localhost';
